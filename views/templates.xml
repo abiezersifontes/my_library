@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<odoo>
+
+    <template id="assets_end" inherit_id="web.assets_backend">
+        <xpath expr="." position="inside">
+            
+            <link rel="stylesheet" type="text/css" href="/my_library/static/src/libs/leaflet/leaflet.css"/>
+            <script type="text/javascript" src="/my_library/static/src/libs/leaflet/leaflet.js" />
+            <link rel="stylesheet" type="text/css" href="/my_library/static/src/css/my_library.css"/>
+            
+            <script type="text/javascript" src="/my_library/static/src/js/m2m_group_view.js" />
+            <script type="text/javascript" src="/my_library/static/src/js/m2m_group_model.js" />
+            <script type="text/javascript" src="/my_library/static/src/js/m2m_group_controller.js" />
+            <script type="text/javascript" src="/my_library/static/src/js/m2m_group_renderer.js" />
+        </xpath>
+    </template>
+
+</odoo>

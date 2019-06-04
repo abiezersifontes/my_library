@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<templates>
+
+    <t t-name="ViewM2mGroup">
+        <div class="row ml16 mr16">
+            <div id="mapId"></div>
+        </div>
+    </t>
+
+    <div t-name="ViewM2mGroup.buttons">
+        <button type="button" class="btn btn-primary">
+            Add Record
+        </button>
+    </div>
+</templates>
